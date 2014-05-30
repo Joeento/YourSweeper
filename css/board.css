@@ -1,0 +1,16 @@
+@font-face
+{
+	font-family: digital;
+	src: url(fonts/DSDIGI.woff);
+}
+
+.box
+{
+	width: 10px;
+	height: 10px;
+	background-color: #AAA;
+}
+.counter
+{
+	font-family:digital;
+}
