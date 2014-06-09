@@ -6,14 +6,26 @@
 
 .gameboard
 {
-	width: 500px;
+	width: 400px;
 	height:500px;
+}
+.header
+{
+	overflow:auto;
+}
+.box-centered table td
+{
+	padding: 0px;
 }
 .box
 {
-	width: 10px;
-	height: 10px;
+	width: 15px;
+	height: 15px;
 	background-color: #AAA;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #FFFFFF #808080 #808080 #FFFFFF;
+	padding: 0px;
 }
 .bordered
 {
@@ -21,6 +33,7 @@
 	border-style: solid;
 	border-color: #808080 #FFFFFF #FFFFFF #808080;
 }
+
 .counter
 {
 	font-family:digital;
