@@ -4,13 +4,44 @@
 	src: url(fonts/DSDIGI.woff);
 }
 
+.gameboard
+{
+	width: 500px;
+	height:500px;
+}
 .box
 {
 	width: 10px;
 	height: 10px;
 	background-color: #AAA;
 }
+.bordered
+{
+	border-width: 3px;
+	border-style: solid;
+	border-color: #808080 #FFFFFF #FFFFFF #808080;
+}
 .counter
 {
 	font-family:digital;
+	color:#ff2300;
+	font-size: 30px;
+	background: #000000;
+	width:47px;
+	padding: 0px;
+
+}
+#smiley
+{
+	float:left;
+	margin: 0 180px;
+	background: #c0c0c0;
+}
+#bombs
+{
+	float:left;
+}
+#seconds
+{
+	float:right;
 }
